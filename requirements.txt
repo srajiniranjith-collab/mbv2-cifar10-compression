@@ -1,0 +1,8 @@
+# Versions used to produce the reported results (Python 3.13). Only these packages are imported by the code.
+# CUDA build used: 13.0 (torch 2.14.1+cu130 / torchvision 0.29.1+cu130). The "+cu130" suffix is a local build tag that is not on
+# PyPI, so plain versions are pinned here; install the matching CUDA wheels from the PyTorch index if you need that exact build.
+torch==2.14.1
+torchvision==0.29.1
+numpy==1.26.4
+matplotlib==3.8.4
+wandb==0.17.9
